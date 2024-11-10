@@ -110,3 +110,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### Next navigation
 - Using useRouter will enable have to state "use client" since it will be a client side rendered component
 
+## validations
+- for zod folder to word
