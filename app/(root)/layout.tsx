@@ -18,7 +18,20 @@ export default function RootLayout({
   return (
 
       <html lang='en'>
-        <body className={inter.className}>{children}
+        <body className={inter.className}>
+          <Topbar />
+          <main>
+            <LeftSideBar/>
+
+            <section className="main-container">
+              <div className="w-full max-w-4xl">
+                {children}
+              </div>
+            </section>
+
+            <RightSideBar/>
+          </main>
+          <Bottombar/>
         </body>
       </html>
   );

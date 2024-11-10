@@ -94,3 +94,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## (auth)
 - This is where the sign-up, sign-in and onboarding will be
 - Adding onboarding will be where the users can add additional information about themselves
+
+## components folder
+### why outside
+- Because nextjs supports file based routing
+### shared
+- Will contain only shared components
