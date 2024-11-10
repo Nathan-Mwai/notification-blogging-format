@@ -35,7 +35,7 @@ export async function updateUser(
         revalidatePath(path)
         // return redirect('/onboarding')
       }
-    } catch (error) {
+    } catch (error: any) {
         throw new Error(`Failed to create/update user: ${error.message}`)
     }
 }
