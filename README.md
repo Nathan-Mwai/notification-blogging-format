@@ -81,3 +81,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Managing forms
 
 #### Changed name of folder from device
+
+ - npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing
+
+ - react 19 doesn't yet support the above so downgrade to 18
+ - npm install react@18 react-dom@18
