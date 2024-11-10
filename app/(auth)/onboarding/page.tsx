@@ -5,6 +5,7 @@ import { currentUser } from "@clerk/nextjs/server";
 async function Page() {
   const user = await currentUser();
 
+  
   // WILL COME FROM DATABASE
 
   const userInfo = {};
