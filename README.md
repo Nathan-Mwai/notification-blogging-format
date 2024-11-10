@@ -58,6 +58,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Instantaneous page switching
 - Including server side rendering
 - Wanting to explore some new outlooks
+- Using routes and also prevent them from being included in the paths using route groups i.e wrapping the foldername in ()
+- (auth) will contain all the auth routes
+- (root) will contain all the other routes 
 
 ## MongoDB
 ### Why this
