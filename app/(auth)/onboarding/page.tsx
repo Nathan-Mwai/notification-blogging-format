@@ -1,11 +1,15 @@
-import { UserButton } from "@clerk/nextjs"
-
-// Confirming if layout is working
 async function Page() {
     return(
-        <main>
+        <main className="mx-auto flex max-w-3xl flex-col justify-start px-10 py-20">
             <h1 className="head-text">Onboarding</h1>
-            <UserButton/>
+            <p className="mt-3 text-base-regular text-light-2">
+                Complete your Blog profile now to use Medrin Blogs
+            </p>
+
+            <section className="mt-9 bg-dark-2 p-10">
+                {/* Will be used for areas in the app */}
+                <AccountProfile />
+            </section>
         </main>
     )
 }
