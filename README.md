@@ -103,3 +103,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## constants 
 - Just a place where I can define lists and other non changing files
+
+### Next navigation
+- Using useRouter will enable have to state "use client" since it will be a client side rendered component
