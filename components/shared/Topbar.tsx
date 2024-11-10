@@ -25,7 +25,6 @@ function Topbar() {
       </Link>
 
       <div className="flex items-center gap-1">
-          <ClerkProvider>
             <div className="block md:hidden">
             <SignedIn>
               <SignOutButton>
@@ -52,7 +51,6 @@ function Topbar() {
                 },
               }}
             />
-          </ClerkProvider>
         </div>
     </nav>
   );

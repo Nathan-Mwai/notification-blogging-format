@@ -43,6 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Enable password
 - Social logins such as google , facebook , twitter and even github
  - Ease in profile management
+ - I put clerkProvider in the layout since for now clerk can only be called once
 
 ## Outlook
 ### Figma
@@ -106,3 +107,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ### Next navigation
 - Using useRouter will enable have to state "use client" since it will be a client side rendered component
+
