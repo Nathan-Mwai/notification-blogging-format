@@ -1,7 +1,21 @@
+import { UserButton, useClerk } from "@clerk/nextjs";
+
 export default function Home() {
+  const { signOut } = useClerk();
+
+  // Define a custom sign-out handler
+  const handleSignOut = () => {
+    // Sign out and redirect to the home page (or any other page)
+    signOut({ redirectUrl: '/' });
+  };
+
   return (
-    <main>
-      <h1>Medrin Blogs</h1>
-    </main>
+    <div>
+      {/* You can handle the sign-out with a custom button */}
+      <button onClick={handleSignOut}>Sign Out</button>
+
+      {/* You can still use the UserButton without the afterSignOut prop */}
+      <UserButton />
+    </div>
   );
 }
