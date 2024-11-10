@@ -1,6 +1,7 @@
 import { UserButton, useClerk } from "@clerk/nextjs";
 
 export default function Home() {
+  // for clerk signing in and signing out
   const { signOut } = useClerk();
 
   // Define a custom sign-out handler

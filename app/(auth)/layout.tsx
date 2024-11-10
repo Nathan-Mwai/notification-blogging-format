@@ -23,7 +23,9 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         {/* inter.className is for the import of fonts */}
-        <body className={`${inter.className} bg-dark-1`}>{children}</body>
+        <body className={`${inter.className} bg-dark-1`}>
+          {children}
+          </body>
       </html>
     </ClerkProvider>
   );
