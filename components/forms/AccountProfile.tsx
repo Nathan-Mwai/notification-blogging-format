@@ -86,7 +86,7 @@ const AccountProfile = ({user, btnTitle}: Props) => {
             
             }
         }
-
+// This makes it less error prone as no matter what order one uses all will be ok
         await updateUser({
             userId: user.id,
             username: values.username,
