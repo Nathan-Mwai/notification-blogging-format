@@ -59,6 +59,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Including server side rendering
 - Wanting to explore some new outlooks
 - Using routes and also prevent them from being included in the paths using route groups i.e wrapping the foldername in ()
+- () It is also used for nesting routes
 - (auth) will contain all the auth routes
 - (root) will contain all the other routes 
 
@@ -89,3 +90,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
  - react 19 doesn't yet support the above so downgrade to 18
  - npm install react@18 react-dom@18
+
+## (auth)
+- This is where the sign-up, sign-in and onboarding will be
+- Adding onboarding will be where the users can add additional information about themselves
