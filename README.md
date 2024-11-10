@@ -100,3 +100,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Because nextjs supports file based routing
 ### shared
 - Will contain only shared components
+
+## constants 
+- Just a place where I can define lists and other non changing files
