@@ -19,6 +19,7 @@ import { ChangeEvent, useState } from "react";
 import { Textarea } from "../ui/textarea";
 import { isBase64Image } from "@/lib/utils";
 import { useUploadThing } from "@/lib/uploadthing"
+import { updateUser } from "@/lib/actions/user.actions";
 
 interface Props{
     user:{
@@ -83,7 +84,14 @@ const AccountProfile = ({user, btnTitle}: Props) => {
             }
         }
 
-        // TODO: Update user profile function
+        await updateUser(
+          values.username,
+          values.name,
+          values.bio,
+          values.profile_photo,
+          user.id,
+          pathname
+        )
       }
 
   return (
