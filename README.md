@@ -112,3 +112,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## validations
 - for zod folder to word
+
+# Backend
+## Benefits of using  server side rendering
+- SEO benefits
+- faster load time
